@@ -1,0 +1,6 @@
+times = ('corintias', 'palmeiras', 'santos', 'gremio', 'cruzeiro', 'flamengo', 'vasco','chapecoense', 'atletico', 'botafogo', 'atletico-pr', 'bahia', 'sao paulo', 'fluminense', 'sport', 'vitoria', 'curitiba', 'avai', 'ponte preta', 'atletico')
+print('Lista de times do Brasileirão {}'.format(times))
+print('Os 5 primeiros são {}'.format(times[0:6]))
+print('Os 4 ultimos são {}'.format(times[-4:]))
+print('Os times em ordem alfabetica são {}'.format(sorted(times)))
+print('O time da Chapecoense está na posição {}'.format(times.index('chapecoense')))

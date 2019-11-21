@@ -1,0 +1,6 @@
+n = input('digite alguma coisa:')
+print('qual o tipo desse valor?',type(n))
+print('é composto por numeros?', n.isnumeric())
+print('é composto por alfa numericos?', n.isalnum())
+print('é composto por é maiusculo?', n.isupper())
+print('é minusculo?', n.islower())
